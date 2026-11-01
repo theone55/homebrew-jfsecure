@@ -1,9 +1,9 @@
 cask "jfsecure" do
   arch arm: "arm64", intel: "x64"
 
-  version "2.8.0"
-  sha256 arm:   "b488e1afed8887a3f720300d190e46734c2636396601497c1c823be86afb9d44",
-         intel: "fd5ccb457429a30bd481173a2d4a14df93ad988de35f8b7d0cc22888fdc7598a"
+  version "2.8.1"
+  sha256 arm:   "29d98a1e12b467b59f1ebe9c5264223fa02cac18ba0dd990661b1c576f370153",
+         intel: "1afcca3fd2d83d58576460a7ccb9977458716343f65e4c4e26e01df86c037a4d"
 
   url "https://secure.jfolio.org/api/updates/download/#{version}/mac-#{arch}?src=brew"
   name "JFSecure"
